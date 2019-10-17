@@ -17,7 +17,7 @@ function getIndex3(arry) {
   if(sample.length >= 4){
     return sample[3]
   } else if (sample.length < 4){
-    return sample[]
+    return sample[sample.length -1]
   }
    
 
